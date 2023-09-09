@@ -1,0 +1,109 @@
+/* Importar a fonte Poppins do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+/* Estilos para o corpo da página */
+body {
+    font-family: 'Poppins', sans-serif; /* Usar a fonte Poppins */
+    font-weight: 400; /* Poppins Regular */
+    background-color: #f6b8c7; /* Background rosa claro */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Estilos para os contêineres de formulário e lista */
+.form-container, .list-container {
+    background-color: #ff6b6b; /* Formulários rosa escuro */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.form-container {
+    width: 300px;
+}
+
+.cat-image {
+    width: 150px; /* Defina a largura desejada */
+    height: auto; /* Mantém a proporção da imagem */
+    display: block; /* Para centralizar horizontalmente */
+    margin: 0 auto 20px; /* Margem inferior para separar da seção de formulário */
+}
+
+.list-container {
+    width: 400px;
+}
+
+/* Estilos para títulos (h1) */
+h1 {
+    text-align: center;
+    color: white; /* Títulos em branco */
+    font-family: 'Poppins', sans-serif; /* Usar a fonte Poppins para títulos */
+    font-weight: 700; /* Poppins Bold para títulos */
+}
+
+/* Estilos para labels */
+label {
+    display: block;
+    margin-top: 10px;
+    color: white; /* Palavras em branco */
+    font-family: 'Poppins', sans-serif; /* Usar a fonte Poppins para labels */
+    font-weight: 700; /* Poppins Bold para labels */
+}
+
+/* Estilos para campos de entrada de texto */
+input {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+/* Estilos para botões */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #e88b9b; /* Botões rosa de outro tom */
+    color: white; /* Palavras em branco */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #ff3552; /* Cor diferente ao passar o mouse */
+}
+
+/* Estilos para a lista de pessoas */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: block;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #fff; /* Fundo branco */
+    color: #333; /* Texto preto */
+    font-family: 'Poppins', sans-serif; /* Usar a fonte Poppins para a lista */
+    font-weight: 400; /* Poppins Regular para a lista */
+}
+
+li:hover {
+    background-color: #e88b9b;
+}
+
+/* Estilos para botões de atualizar e deletar */
+#update-button, #delete-button {
+    margin-top: 20px;
+    background-color: #e88b9b; /* Botões rosa de outro tom */
+}
+
+#update-button:hover, #delete-button:hover {
+    background-color: #ff3552; /* Cor diferente ao passar o mouse */
+}
